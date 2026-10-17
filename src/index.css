@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/archivo/wdth.css';
+
+/*
+  Direção: "linha de campo". Página clara para as fotos respirarem,
+  faixas escuras na cor do logo, e a marcação branca do campo como único motivo gráfico.
+*/
+@theme {
+  --color-noite: #0b2015; /* fundos escuros: cabeçalho, hero, chamada final, rodapé */
+  --color-noite-2: #13301f; /* superfície elevada sobre o escuro */
+  --color-noite-3: #071510; /* rodapé */
+  --color-verde: #256b1c; /* links e números sobre fundo claro (5,9:1) */
+  --color-lima: #9acd3f; /* ação principal sobre fundo escuro (9,1:1) */
+  --color-lima-claro: #b3dd66; /* hover da ação principal */
+  --color-off: #f6f4ee; /* fundo principal */
+  --color-areia: #ece6d6; /* seções alternadas */
+  --color-linha: #d3d3c3; /* bordas e divisórias */
+  --color-grafite: #1a211c; /* texto principal (14,9:1) */
+  --color-grafite-2: #545e57; /* texto secundário (6,1:1) */
+  --color-nevoa: #b9c4bc; /* texto secundário sobre escuro (9,5:1) */
+
+  --font-sans: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+    scroll-padding-top: 80px;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-off);
+    color: var(--color-grafite);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  img,
+  video {
+    max-width: 100%;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-verde);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible {
+    outline-color: var(--color-lima);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+@layer components {
+  /* Títulos em Archivo expandida: a voz da marca */
+  .display {
+    font-stretch: 125%;
+    font-weight: 760;
+    letter-spacing: -0.02em;
+    line-height: 0.98;
+  }
+  .heading {
+    font-stretch: 115%;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .gutter {
+    padding-left: max(20px, env(safe-area-inset-left, 0px));
+    padding-right: max(20px, env(safe-area-inset-right, 0px));
+  }
+  .wrap {
+    margin-inline: auto;
+    max-width: 1240px;
+  }
+}
+
+/* Marcação de campo desenhada uma vez, no carregamento */
+@media (prefers-reduced-motion: no-preference) {
+  .chalk-draw path,
+  .chalk-draw circle,
+  .chalk-draw line {
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
+    animation: chalk 1.6s 0.2s cubic-bezier(0.6, 0, 0.2, 1) forwards;
+  }
+}
+@keyframes chalk {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+dialog::backdrop {
+  background: rgb(7 21 16 / 0.92);
+}

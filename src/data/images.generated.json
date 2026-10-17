@@ -1,0 +1,252 @@
+{
+  "alambrado-detalhe": {
+    "width": 738,
+    "height": 598,
+    "widths": [
+      480,
+      738
+    ],
+    "color": "#d8e8e8"
+  },
+  "arena-redes-estrutura": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#5898d8"
+  },
+  "campo-grande-porte": {
+    "width": 868,
+    "height": 1156,
+    "widths": [
+      480,
+      800,
+      868
+    ],
+    "color": "#284828"
+  },
+  "campo-iluminacao-noturna": {
+    "width": 750,
+    "height": 916,
+    "widths": [
+      480,
+      750
+    ],
+    "color": "#385818"
+  },
+  "campo-lateral-marcacao": {
+    "width": 963,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      963
+    ],
+    "color": "#a8c8e8"
+  },
+  "campo-listrado": {
+    "width": 1040,
+    "height": 780,
+    "widths": [
+      480,
+      800,
+      1040
+    ],
+    "color": "#285808"
+  },
+  "campo-society-marcacao": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#082808"
+  },
+  "campo-society-vista-alta": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#386838"
+  },
+  "campo-sombra-alambrado": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#081818"
+  },
+  "detalhe-fibras": {
+    "width": 756,
+    "height": 1008,
+    "widths": [
+      480,
+      756
+    ],
+    "color": "#e8d8c8"
+  },
+  "detalhe-marca-penalti": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#080808"
+  },
+  "execucao-acabamento-campo": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#082808"
+  },
+  "execucao-preparo-base": {
+    "width": 1280,
+    "height": 963,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#d8c8c8"
+  },
+  "execucao-residencial-placas": {
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#f8f8f8"
+  },
+  "execucao-rolos-campo": {
+    "width": 1280,
+    "height": 963,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#a8c8e8"
+  },
+  "material-base-fibra": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "color": "#282828"
+  },
+  "material-fibra-verde": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#88d808"
+  },
+  "rede-protecao-azul": {
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "color": "#184888"
+  },
+  "rede-teto": {
+    "width": 750,
+    "height": 683,
+    "widths": [
+      480,
+      750
+    ],
+    "color": "#5898c8"
+  },
+  "residencial-canteiro-flores": {
+    "width": 750,
+    "height": 971,
+    "widths": [
+      480,
+      750
+    ],
+    "color": "#b8b8b8"
+  },
+  "residencial-corredor-gradil": {
+    "width": 720,
+    "height": 1280,
+    "widths": [
+      480,
+      720
+    ],
+    "color": "#688858"
+  },
+  "residencial-corredor-muro": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      960
+    ],
+    "color": "#486828"
+  },
+  "residencial-garagem": {
+    "width": 1030,
+    "height": 1280,
+    "widths": [
+      480,
+      800,
+      1030
+    ],
+    "color": "#384818"
+  },
+  "residencial-placas-pedriscos": {
+    "width": 750,
+    "height": 876,
+    "widths": [
+      480,
+      750
+    ],
+    "color": "#688848"
+  },
+  "residencial-vaso": {
+    "width": 720,
+    "height": 1280,
+    "widths": [
+      480,
+      720
+    ],
+    "color": "#385848"
+  },
+  "video-poster": {
+    "width": 478,
+    "height": 850,
+    "widths": [
+      478
+    ],
+    "color": "#78a8d8"
+  }
+}
