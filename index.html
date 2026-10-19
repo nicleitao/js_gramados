@@ -12,7 +12,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
     <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 
-    <!-- Compartilhamento social. Quando houver domínio, troque og:image por uma URL absoluta e adicione og:url e a tag canonical. -->
+    <link rel="canonical" href="https://jsgramadosbr.com.br/" />
+
+    <!-- Compartilhamento social (WhatsApp, Facebook, etc.) -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="JS Gramados" />
@@ -21,7 +23,8 @@
       property="og:description"
       content="Grama sintética, alambrados, redes e iluminação. Fornecimento e instalação em todo o Brasil."
     />
-    <meta property="og:image" content="./og-image.jpg" />
+    <meta property="og:url" content="https://jsgramadosbr.com.br/" />
+    <meta property="og:image" content="https://jsgramadosbr.com.br/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -29,6 +32,22 @@
     <link rel="preload" as="image" type="image/webp" fetchpriority="high" media="(max-width: 639px)" imagesrcset="./images/campo-society-marcacao-480.webp 480w, ./images/campo-society-marcacao-800.webp 800w, ./images/campo-society-marcacao-960.webp 960w" imagesizes="100vw" />
     <link rel="preload" as="image" type="image/webp" fetchpriority="high" media="(min-width: 640px) and (max-width: 1023px)" imagesrcset="./images/arena-redes-estrutura-480.webp 480w, ./images/arena-redes-estrutura-800.webp 800w, ./images/arena-redes-estrutura-1280.webp 1280w" imagesizes="100vw" />
     <link rel="preload" as="image" type="image/webp" fetchpriority="high" media="(min-width: 1024px)" imagesrcset="./images/arena-redes-estrutura-480.webp 480w, ./images/arena-redes-estrutura-800.webp 800w, ./images/arena-redes-estrutura-1280.webp 1280w" imagesizes="58vw" />
+    <!-- Dados estruturados: ajudam o Google a entender quem é a empresa (só informações confirmadas) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "JS Gramados",
+        "url": "https://jsgramadosbr.com.br/",
+        "logo": "https://jsgramadosbr.com.br/icon-512.png",
+        "image": "https://jsgramadosbr.com.br/og-image.jpg",
+        "slogan": "Mais verde para o seu espaço",
+        "description": "Projetos completos de grama sintética para casas, empresas e campos esportivos, com alambrados, telas, redes e iluminação. Fornecimento e instalação em todo o Brasil.",
+        "telephone": "+55-88-9666-5501",
+        "areaServed": { "@type": "Country", "name": "Brasil" },
+        "sameAs": ["https://www.instagram.com/js_gramados/"]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
