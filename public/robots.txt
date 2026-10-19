@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-# Quando houver domínio definitivo, adicione:
-# Sitemap: https://SEU-DOMINIO/sitemap.xml
+
+   Sitemap: https://jsgramadosbr.com.br/sitemap.xml
